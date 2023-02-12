@@ -3,10 +3,10 @@
 
 int main(void)
 {
-    int a = 0;
-    if (a<11)
+    int a = 1;
+    if (a++<11)
     {
         printf("%i\n",a);
-        a++;
+        //return +
     }
 }
