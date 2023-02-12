@@ -4,7 +4,7 @@
 int main(void)
 {
     int a = 1;
-    if (a<11)
+    while (a<11)
     {
         printf("\n");
         a++;
