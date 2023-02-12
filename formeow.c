@@ -1,10 +1,12 @@
 # include <stdio.h>
+# include <cs50.h>
 void meow (int n);
 
 int main(void)
 
     {
-        meow(5);
+        int n = get_int("How many meows do you want? \n)"
+        meow(n);
     }
 
     void meow (int n)
