@@ -2,7 +2,7 @@
 #include <cs50.h>
 int main (void)
 {
-    int a =5;
-    int b=8;
-    printf("sum of %i and %i is %i",a,b,a+b);
+    int a = get_int("Enter your first value:");
+    int b=get_int("Enter your second value:");
+    printf("sum of %i and %i is %i \n",a,b,a+b);
 }
