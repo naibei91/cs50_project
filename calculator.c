@@ -9,11 +9,11 @@ int main (void)
     float b = x*y;
     float c = x-y;
     float d = x/y;
-    float e = x%y;
+    //int e = x%y;
 
-    printf("Sum of %f and %f is %f",x,y,a);
-    printf("Multiplication of %f and %f is %f",x,y,a);
-    printf("Substraction of %f and %f is %f",x,y,a);
-    printf("Division of %f and %f is %f",x,y,a);
-    printf("Remaindr of %f and %f is %f",x,y,a);
+    printf("Sum of %.2f and %f is %f\n",x,y,a);
+    printf("Multiplication of %.2f and %f is %f\n",x,y,b);
+    printf("Substraction of %f and %.2f is %f\n",x,y,c);
+    printf("Division of %f and %f is %.2f\n",x,y,d);
+    //printf("Remainder of %f and %f is %f",x,y,e);
 }
