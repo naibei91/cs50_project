@@ -10,6 +10,6 @@ int main(void)
     }
     else
     {
-        printf(odd\n);
+        printf("odd\n");
     }
 }
