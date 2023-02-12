@@ -4,8 +4,8 @@
 int main(void)
 {
     //user to agree
-    char x = get_char("Do you agree?");
-    if (x == 'y'||x=='Y')
+    char[3] x = get_char("Do you agree?");
+    if (x == 'y'||x=='Y'||x=="yes")
     {
         printf("Agreed\n");
     }
