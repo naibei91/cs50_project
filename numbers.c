@@ -6,7 +6,7 @@ int main(void)
     int a = 1;
     while (a<11)
     {
-        printf("\n");
+        printf("%i\n",a);
         a++;
     }
 }
