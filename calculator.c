@@ -13,7 +13,7 @@ int main (void)
 
     printf("Sum of %.2f and %f is %f\n",x,y,a);
     printf("Multiplication of %.2f and %f is %f\n",x,y,b);
-    printf("Substraction of %f and %.2f is %f\n",x,y,c);
+    printf("Substraction of %f and %.f is %f\n",x,y,c);
     printf("Division of %f and %f is %.2f\n",x,y,d);
     //printf("Remainder of %f and %f is %f",x,y,e);
 }
