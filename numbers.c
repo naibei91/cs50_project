@@ -6,7 +6,7 @@ int main(void)
     int a = 1;
     if (a++<11)
     {
-        printf("%i\n",a);
+        printf("a\n");
         //return +
     }
 }
