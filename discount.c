@@ -5,6 +5,7 @@ float discount (float price);
 int main (void)
 {
     float regular = get_float("What is the regular price?");
+    int percent =
     float sale = discount(regular);
     printf("Current price : %.2f\n",sale);
 }
