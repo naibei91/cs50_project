@@ -7,6 +7,6 @@ int main(void)
     if (a++<11)
     {
         printf("a\n");
-        //return +
+        return 1;
     }
 }
