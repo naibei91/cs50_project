@@ -4,9 +4,9 @@
 int main(void)
 {
     int a = 1;
-    if (a++<11)
+    if (a<11)
     {
-        printf("a\n");
-        return 1;
+        printf("\n");
+        a++;
     }
 }
