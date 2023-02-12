@@ -5,11 +5,11 @@ void meow (int n);
 int main(void)
 
     {
-        int n = get_int("How many meows do you want? \n");
+        int n = get_int("How many meows do you want? ");
         meow(n);
     }
 
-    void meow (int n)
+    void meow (n)
 {
     for(int i=0;i < n;i++)
     {
