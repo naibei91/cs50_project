@@ -1,12 +1,17 @@
 #include <stdio.h>
 #include <cs50.h>
+void count (int a);
 
 int main(void)
 {
-    int a = 1;
-    while (a<11)
+    for (int a=1;a<11;a++)
     {
-        printf("%i\n",a);
-        a++;
+        count(a);
     }
 }
+
+void count (int a)
+    {
+     printf("%i\n",a);
+     a++;
+    }
