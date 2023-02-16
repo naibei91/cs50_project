@@ -11,6 +11,7 @@ int main (void)
  division((float)z);
 }
 
+
 void multiplication(int z)
 {
     printf("multiplication Table\n");
