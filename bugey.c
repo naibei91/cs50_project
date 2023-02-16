@@ -16,9 +16,9 @@ void multiplication(int z)
 {
     {
     printf("multiplication Table\n");
-    for (int i=1;i >=z;i++)
+    for (int i=1;i <=z;i++)
      {
-        for (int j=1;j>=z;j++)
+        for (int j=1;j<=z;j++)
         {
             printf("%4i",i*j);
         }
@@ -41,7 +41,7 @@ int get_value(void)
 void division(float z)
 {
     printf("division Table\n");
-    for (float i=1;i >=z;i++)
+    for (float i=1;i<=z;i++)
      {
         for (float j=1;j<=z;j++)
         {
