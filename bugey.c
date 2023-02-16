@@ -14,7 +14,6 @@ int main (void)
 
 void multiplication(int z)
 {
-    do
     {
     printf("multiplication Table\n");
     for (int i=1;i <=z;i++)
@@ -26,12 +25,16 @@ void multiplication(int z)
         printf("\n");
      }
     }
-    while(z==0);
 }
 
 int get_value(void)
 {
-    int z = get_int("what is the size of the multiplication table? ");
+    int z;
+    do
+    {
+    z = get_int("what is the size of the multiplication table? ");
+    }
+    while (z==0);
     return z;
 }
 
