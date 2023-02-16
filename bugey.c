@@ -18,7 +18,7 @@ void multiplication(int z)
     printf("multiplication Table\n");
     for (int i=1;i >=z;i++)
      {
-        for (int j=1;j<=z;j++)
+        for (int j=1;j>=z;j++)
         {
             printf("%4i",i*j);
         }
