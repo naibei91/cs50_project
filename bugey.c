@@ -37,7 +37,7 @@ void division(float z)
      {
         for (float j=1;j<=z;j++)
         {
-            printf("%7.2f",j/j);
+            printf("%7.2f",j/i);
         }
         printf("\n");
      }
