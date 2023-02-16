@@ -1,14 +1,14 @@
 #include <stdio.h>
 #include <cs50.h>
 void multiplication(int z);
-void division(float z);
+void division(long float z);
 int get_value(void);
 
 int main (void)
 {
  int z = get_value();
  multiplication(z);
- division((float)z);
+ division((long float)z);
 }
 
 
@@ -31,14 +31,14 @@ int get_value(void)
     return z;
 }
 
-void division(float z)
+void division(long float z)
 {
     printf("division Table\n");
     for (float i=1;i <=z;i++)
      {
-        for (float j=1;j<=z;j++)
+        for (long float j=1;j<=z;j++)
         {
-            printf("%7.2f",j/i);
+            printf("%7.2lf",j/i);
         }
         printf("\n");
      }
