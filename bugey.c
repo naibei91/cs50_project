@@ -6,7 +6,7 @@ int get_value(void);
 
 int main (void)
 {
-- int z = get_value();
+int z = get_value();
  multiplication(z);
  division((float)z);
 }
