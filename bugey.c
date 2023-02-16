@@ -26,7 +26,7 @@ void multiplication(int z)
         printf("\n");
      }
     }
-    while(z<1);
+    while(z=0);
 }
 
 int get_value(void)
