@@ -1,19 +1,21 @@
 #include <stdio.h>
 #include <cs50.h>
 void multiplication(int z);
-void division(long float z);
+void division(float z);
 int get_value(void);
 
 int main (void)
 {
  int z = get_value();
  multiplication(z);
- division((long float)z);
+ division((float)z);
 }
 
 
 void multiplication(int z)
 {
+    do
+    {
     printf("multiplication Table\n");
     for (int i=1;i <=z;i++)
      {
@@ -23,6 +25,8 @@ void multiplication(int z)
         }
         printf("\n");
      }
+    }
+    while(z<1);
 }
 
 int get_value(void)
@@ -31,12 +35,12 @@ int get_value(void)
     return z;
 }
 
-void division(long float z)
+void division(float z)
 {
     printf("division Table\n");
     for (float i=1;i <=z;i++)
      {
-        for (long float j=1;j<=z;j++)
+        for (float j=1;j<=z;j++)
         {
             printf("%7.2lf",j/i);
         }
