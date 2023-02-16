@@ -1,20 +1,42 @@
 #include <stdio.h>
 #include <cs50.h>
-int multiplication(int z);
+void multiplication(int z);
+int get_value(void);
 
 int main (void)
 {
- int z = get_int("what is the size of the multiplication table? ");
+ int z = get_value();
  multiplication(z);
+ division((float)z);
 }
 
-int multiplication(int z)
+void multiplication(int z)
 {
+    printf("multiplication Table");
     for (int i=1;i <=z;i++)
      {
         for (int j=1;j<=z;j++)
         {
             printf("%4i",i*j);
+        }
+        printf("\n");
+     }
+}
+
+int get_value(void)
+{
+    int z = get_int("what is the size of the multiplication table? ");
+    return z;
+}
+
+void division(float z)
+{
+    printf("division Table");
+    for (float i=1;i <=z;i++)
+     {
+        for (float j=1;j<=z;j++)
+        {
+            printf("%4.2f",i/j);
         }
         printf("\n");
      }
