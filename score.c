@@ -19,6 +19,7 @@ int main (void)
 
 float average(int length,int array[])
 {
+    int sum = 0;
     for(int j=0;j<length;j++)
     {
         sum = sum + array[j];
