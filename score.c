@@ -12,7 +12,7 @@ int main (void)
     {
     scores[i]=get_int("Score: ");
     }
-    float aver = float average(n,scores[n]);
+    float aver = average(n,scores[n]);
     printf("Average of your scores : %f\n",aver);
 
 }
