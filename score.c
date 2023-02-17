@@ -4,8 +4,9 @@
 int main (void)
 
 {
-    int scores[3];
-    for(int i=0;i<3;i++)
+    int n = get_int("How many scores do you have ? \n");
+    int scores[n];
+    for(int i=0;i<n;i++)
     {
     scores[i]=get_int("Score: ");
     }
