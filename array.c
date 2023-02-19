@@ -3,7 +3,7 @@
 
 int number(void);
 float average(int a);
-int print(int c);
+int print(float c);
 
 int main (void)
 {
@@ -36,7 +36,7 @@ float average(int a)
     return sum/(float)a;
 }
 
-void print(int c)
+int print(float c)
 {
     printf ("The average is %f\n",c);
 }
