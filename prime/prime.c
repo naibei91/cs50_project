@@ -32,9 +32,9 @@ bool prime(int number)
 {
     for(j=1;j<=number;j++)
     {
-        if (number%2!=0 && number%)
+        if (number%!=0 && number%)
             {
-                
+
             }
     }
     // TODO
