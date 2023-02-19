@@ -23,16 +23,17 @@ int number(void)
 float average(int a)
 
 {
+    int array[a];
+    int sum=0;
     for (int j=0;j<a;j++)
     {
-       int array[j]=get_int("score: ");
+       array[j]=get_int("score: ");
     }
     for (int i=0;i<a;i++)
     {
-        int sum=0;
         sum  = sum + array[i];
     }
-    return (float)sum/a;
+    return sum/(float)a;
 }
 
 void print(int c)
