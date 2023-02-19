@@ -6,5 +6,5 @@ int main (void)
  char char2='I';
  char char3='!';
 
- printf("%c%c%c\n",char1,char2,char3);
+ printf("%i%i%i\n",char1,char2,char3);
 }
