@@ -5,12 +5,13 @@ int main(void)
 {
     string name=get_string("what is your name?");
 
-    int i = 0;
 
-    while(name[i]!='\0')
+
+    if(int i = 0;name[i]!='\0';i++)
     {
         i++;
     }
+    else
     printf("%i\n", i);
 
 }
