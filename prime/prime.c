@@ -34,7 +34,7 @@ bool prime(int number)
     {
         if (number%j!=0 && number%number==0)
             {
-                printf("prime");
+                return true;
             }
     }
     // TODO
