@@ -30,9 +30,12 @@ int main(void)
 
 bool prime(int number)
 {
-    if (number%2!=0 && number%)
+    for(j=1;j<=number;j++)
     {
-
+        if (number%2!=0 && number%)
+            {
+                
+            }
     }
     // TODO
     return false;
