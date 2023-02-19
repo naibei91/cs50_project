@@ -2,7 +2,7 @@
 #include <cs50.h>
 
 int number(void);
-int average(int a);
+int average(int a,array[]);
 int print(int c);
 
 int main (void)
