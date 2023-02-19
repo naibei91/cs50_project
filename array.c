@@ -3,7 +3,7 @@
 
 int number(void);
 int average(int a);
-void print(int c);
+int print(int c);
 
 int main (void)
 {
@@ -24,7 +24,8 @@ int average(int a)
     for (int i=0;i<a;i++)
     {
         int score[i];
-        sum+=score[i];
+        int sum;
+        sum  = sum + score[i];
     }
     return sum/a;
 }
