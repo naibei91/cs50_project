@@ -12,3 +12,12 @@ int number(void)
     int x=get_int("How many number do you want to find the average for? ");
     return x;
 }
+
+int average(int a)
+
+{
+    for (int i=0;i<a;i++)
+    {
+        
+    }
+}
