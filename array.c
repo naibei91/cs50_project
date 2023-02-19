@@ -2,15 +2,14 @@
 #include <cs50.h>
 
 int number(void);
-float average(int a,int array[]);
+float average(int a);
 int print(int c);
 
 int main (void)
 {
 
     int n = number();
-    int scores
-    int a = average(n,scores);
+    int a = average(n);
     int b = print(a);
 
 }
@@ -21,7 +20,7 @@ int number(void)
     return x;
 }
 
-float average(int a,int array[])
+float average(int a)
 
 {
     for (int j=0;j<a;j++)
@@ -30,7 +29,7 @@ float average(int a,int array[])
     }
     for (int i=0;i<a;i++)
     {
-        int sum;
+        int sum=0;
         sum  = sum + array[i];
     }
     return (float)sum/a;
