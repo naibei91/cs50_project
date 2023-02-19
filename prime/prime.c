@@ -30,11 +30,11 @@ int main(void)
 
 bool prime(int number)
 {
-    for(j=1;j<=number;j++)
+    for(int j=2;j<number;j++)
     {
-        if (number%j!=0 && number%)
+        if (number%j!=0 && number%number==0)
             {
-
+                printf("prime");
             }
     }
     // TODO
