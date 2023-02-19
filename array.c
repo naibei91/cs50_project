@@ -2,14 +2,17 @@
 #include <cs50.h>
 
 int number(void);
-int average(int a,array[]);
+float average(int a,int array[]);
 int print(int c);
 
 int main (void)
 {
+
     int n = number();
-    int a = average(n);
+    int scores
+    int a = average(n,scores);
     int b = print(a);
+
 }
 
 int number(void)
@@ -18,19 +21,22 @@ int number(void)
     return x;
 }
 
-int average(int a)
+float average(int a,int array[])
 
 {
+    for (int j=0;j<a;j++)
+    {
+       int array[j]=get_int("score: ");
+    }
     for (int i=0;i<a;i++)
     {
-        int score[i];
         int sum;
-        sum  = sum + score[i];
+        sum  = sum + array[i];
     }
-    return sum/a;
+    return (float)sum/a;
 }
 
 void print(int c)
 {
-    printf ("The average is %f\n",b);
+    printf ("The average is %f\n",c);
 }
