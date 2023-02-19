@@ -3,7 +3,12 @@
 
 int main (void)
 {
-    int n = get_int();
+    int n = number();
+    int score[n];
 }
 
-int 
+int number(void)
+{
+    int x=get_int("How many number do you want to find the average for? ");
+    return x;
+}
