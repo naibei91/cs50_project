@@ -32,7 +32,7 @@ bool prime(int number)
 {
     for(int j=2;j<number;j++)
     {
-        if (number%j!=0 && number%number==0)
+        if (number%j!=0)
             {
                 return true;
             }
