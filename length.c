@@ -7,11 +7,9 @@ int main(void)
 
 
 
-    if(int i = 0;name[i]!='\0';i++)
+    for (int i = 0;name[i]!='\0';i++)
     {
-        i++;
+        printf("%i\n", i);
     }
-    else
-    printf("%i\n", i);
-
+    
 }
