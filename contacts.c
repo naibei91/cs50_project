@@ -2,14 +2,14 @@
 #include <cs50.h>
 #include <string.h>
 
-datatype struct
+typedef struct
 {
     string name;
     string number;
 }
 contact;
 
-int main void
+int main (void)
 {
     string names = get_strng("Type name: ");
 
