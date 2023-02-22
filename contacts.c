@@ -11,7 +11,7 @@ contact;
 
 int main (void)
 {
-    string names = get_strng("Type name: ");
+    string names = get_string("Type name: ");
 
     contact.name[0]= "Brian";
     contact.number[0]="0724846398";
