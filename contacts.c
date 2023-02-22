@@ -12,18 +12,19 @@ contact;
 int main (void)
 {
     string names = get_string("Type name: ");
+    contact contacts[2];
 
-    contact[0].name= "Brian";
-    contact[0].number="0724846398";
+    contacts[0].name= "Brian";
+    contacts[0].number="0724846398";
 
-    contact[1].name="Amos";
-    contact[1].number="0724846398";
+    contacts[1].name="Amos";
+    contacts[1].number="0724846398";
 
     for(int i=0;i<2;i++)
     {
-        if(strcmp(names,contact.name)==0)
+        if(strcmp(names,contacts[i].name)==0)
         {
-        printf("%s:/n%s:/n",contact[i].name,contact[i].number);
+        printf("%s:\n%s:\n",contacts[i].name,contacts[i].number);
         return 0;
         }
         else
