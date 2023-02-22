@@ -23,7 +23,7 @@ void print (int a)
         for(int j=0;j<i;j++)
         {
         int x = a-j;
-        printf("%xi",i);
+        printf("%i",i);
         }
         printf("\n");
     }
