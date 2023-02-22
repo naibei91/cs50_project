@@ -22,7 +22,8 @@ void print (int a)
     {
         for(int j=0;j<i;j++)
         {
-        printf("%i",i);
+        int x = a-j;
+        printf("%xi",i);
         }
         printf("\n");
     }
