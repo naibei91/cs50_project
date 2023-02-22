@@ -11,7 +11,7 @@ contact;
 int main void
 {
     string names = get_strng("Type name: ");
-    
+
     contact.name[0]= "Brian";
     contact.number[0]="0724846398";
 
@@ -20,8 +20,13 @@ int main void
 
     for(int i=0;i<2;i++)
     {
-        if(strcmp())
-        printf("");
+        if(strcmp(names,contact.name)==0)
+        {
+        printf("%s:/n%s:/n",contact.name[i],contact.number[i]);
+        return 0;
+        }
+        else
+        return 1;
     }
 
 
