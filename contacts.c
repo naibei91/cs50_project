@@ -12,10 +12,10 @@ contact;
 int main (void)
 {
     string names = get_string("Type name: ");
-    contact contacts[2];
+   // contact contacts[2];
 
-    contacts[0].name= "Brian";
-    contacts[0].number="0724846398";
+    contact contacts[0].name= "Brian";
+    contact contacts[0].number="0724846398";
 
     contacts[1].name="Amos";
     contacts[1].number="0724846398";
