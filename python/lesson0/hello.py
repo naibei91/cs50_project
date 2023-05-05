@@ -37,5 +37,5 @@ print(f"Hello,\"{name}\"{name1}",sep=' ')
 
 """
 #using it in one line of code
-name2 = input("What are your names ?").strip("","b").title().rstrip('naibei').split(',',maxsplit=1)
+name2 = input("What are your names ?").strip("b").title().rstrip('naibei')
 print(f"Hi,{name2}")
