@@ -28,5 +28,10 @@ print(f"{d:,}")
 
 #division
 
-g = x/y
+g = round (x/y,2)
 print(g)
+
+#division alterntive using fstring
+
+h = x / y
+print(f"{z:}")
