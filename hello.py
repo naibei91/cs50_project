@@ -1,1 +1,1 @@
-print.tolower('Hello World')
+print.toLower('Hello World')
