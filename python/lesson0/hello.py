@@ -6,5 +6,5 @@ name = input("what's your name? ")
 print("Hello," + name)
 
 #take multiple arguments
-
-print("Hello, ",name)
+name1 = input("what's your second name? ")
+print("Hello,",name,name1)
