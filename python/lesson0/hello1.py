@@ -4,8 +4,9 @@ def hello ():
 def hello1(to):
     print("hello "+to)
 hello()
-hello1(name)
 print(name)
+
+hello1(name)
 
 
 #with
