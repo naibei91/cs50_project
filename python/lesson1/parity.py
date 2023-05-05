@@ -8,9 +8,10 @@ def value():
     return details
 
 def even ():
-    if value() % 2 ==0:
-        print(f"{x} is even")
+    x = value()
+    if x % 2 ==0:
+        print(" is even")
     else:
-        print(f"{x} is odd")
+        print(value()" is odd")
 
 main()
