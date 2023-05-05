@@ -1,7 +1,7 @@
 def main():
-    face = input("How are you feeling today : ").replace(":)","🙂").replace(":(","🙁")
+    face = input("  : ").replace(":)","🙂").replace(":(","🙁")
     convert(face)
 def convert(face1):
-    print(face1)
+    return print(face1)
 
 main()
