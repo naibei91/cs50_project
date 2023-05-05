@@ -1,3 +1,4 @@
 print("Hello,world")
 
-input("what's your name? ")
+name = input("what's your name? ")
+print("Hello, {name}".format)
