@@ -41,5 +41,5 @@ name2 = input("What are your names ?").title().strip("b")
 print(f"Hi,{name2}")
 
 #split users name into first name and last name
-first, second , last = name2.split(" ")
+first, second ,last = name2.split(" ")
 print(f"Hi,{last}")
