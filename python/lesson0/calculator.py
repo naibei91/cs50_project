@@ -17,3 +17,7 @@ print(a+b)
 
 c = a+b
 print(f"sum of first value and second value is {c}")
+
+#using round
+d = round(x+b,4)
+print(f"sum of first value and second value is {d}")
