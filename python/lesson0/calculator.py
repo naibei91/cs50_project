@@ -10,10 +10,10 @@ z = int(x)+int(y)
 print(f"sum of first value and second value is {z}")
 
 #using float
-x = float(input("Enter first value:"))
-y = float(input("Enter second value:"))
+a = float(input("Enter first value:"))
+b = float(input("Enter second value:"))
 
-print(x+y)
+print(a+b)
 
-z = x.2+y.2
-print(f"sum of first value and second value is {z}")
+c = a+b
+print(f"sum of first value and second value is {c}")
