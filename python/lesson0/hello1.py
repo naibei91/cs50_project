@@ -5,7 +5,7 @@ def main():
 def hello ():
     print("hello",end = " ")
 
-def hello1(to = "world"):    #just
+def hello1(to = "world"):    
     print("hello "+ to)
 
 
