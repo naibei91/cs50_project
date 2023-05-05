@@ -23,5 +23,10 @@ d = round(a+b,4)
 print(f"sum of first value and second value is {d}")
 
 
-#to add commas to values using fstring for numeric formating 
+#to add commas to values using fstring for numeric formating
 print(f"{d:,}")
+
+#division
+
+g = x/y
+print(g)
