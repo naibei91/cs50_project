@@ -34,4 +34,4 @@ print(g)
 #division alterntive using fstring
 
 h = x / y
-print(f"{h:}")
+print(f"{h:.2f}")
