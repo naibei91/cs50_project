@@ -13,7 +13,7 @@ else:
 
 #also...
 
-if 100>=score<=90:
+if 100>=score>=90:
     print(f"A : {score}%")
 elif score >=80 and score<90:
     print(f"B : {score}%")
