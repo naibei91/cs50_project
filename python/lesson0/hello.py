@@ -37,7 +37,9 @@ print(f"Hello,\"{name}\"{name1}",sep=' ')
 
 """
 #using it in one line of code
-name2 = input("What are your names ?").strip("b").title().rstrip('naibei')
+name2 = input("What are your names ?").strip("b").title()
 print(f"Hi,{name2}")
 
 #split users name into first name and last name
+first, last = name2.split(" ")
+print(f"Hi,{last}")
