@@ -1,7 +1,7 @@
 def main():
     name = input("what is your name ?").title()
     hello1(name)
-    hello
+    hello()
 def hello ():
     print("hello",end = " ")
 
