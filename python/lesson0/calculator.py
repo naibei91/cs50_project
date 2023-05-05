@@ -21,3 +21,7 @@ print(f"sum of first value and second value is {c}")
 #using round
 d = round(a+b,4)
 print(f"sum of first value and second value is {d}")
+
+
+#to add commas to values
+print(f"{d:,}")
