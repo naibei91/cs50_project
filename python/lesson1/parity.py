@@ -1,6 +1,6 @@
 
 def main():
-     value(even())
+     even()
 
 
 def value():
