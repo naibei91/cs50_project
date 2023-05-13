@@ -12,6 +12,6 @@ def even ():
     if x % 2 ==0:
         print(" is even")
     else:
-        print(value()" is odd")
+        print(" is odd")
 
 main()
