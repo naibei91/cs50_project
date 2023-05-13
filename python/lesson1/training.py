@@ -4,7 +4,7 @@ def main():
 def display():
     x = double(input("input first value : "))
     y = double("input next value : ")
-    z = int()
+    z = int(input(""))
     sum()
 
 def sum():
