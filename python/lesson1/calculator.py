@@ -2,8 +2,8 @@ def main():
     display()
 
 def display():
-    x = float(input("input first value : "))
-    y = float(input("input next value : "))
+    x = (input("input first value : "))
+    y = x.rfind()
     z = int(input("Choose 1 for sum 2 for differences 3 for multiplication 4 for remainder 5 for "))
     if(z == 1):
         sum(x,y)
