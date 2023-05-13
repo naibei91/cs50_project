@@ -26,6 +26,6 @@ def mult(e,f):
     print(f"The sum is of {e} and {f}: {e*f}")
 
 def rem(g,h):
-    print(f"The remainde is of {g} dividing {h}: {g%h}")
+    print(f"The remainde is of {g} dividing {h} : {g%h}")
 
 main()
