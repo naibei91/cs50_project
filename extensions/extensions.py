@@ -3,11 +3,8 @@ def main():
     if x.find(".") != -1:
         y = x+" "
         z1 = int(y.index("."))
-        z2 = int(y.rindex("."))
         a = y[z1+1]+y[z1+2]+y[z1+3]+y[z1+4].strip()
-        if z1 == z2 :
-            onyesha(a)
-       
+        onyesha(a)
     else:
        print("application/octet-stream")
 
