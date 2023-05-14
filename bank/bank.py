@@ -1,11 +1,8 @@
 greetings = input("Greating : ").title().strip()
-x = greetings[0]
-y = greetings.find("Hello")
 
-match x:
-    case "Hello":
-        print("$0")
-    case "H":
-        print("$20")
-    case _:
-        print("$100")
+if greetings.find("Hello") == "Hello":
+    print("$0")
+elif greetings[0] == "H":
+    print("$20")
+else:
+    print("$100")
