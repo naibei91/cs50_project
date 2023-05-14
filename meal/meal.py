@@ -1,4 +1,4 @@
-def main():
+"""def main():
     meal = convert(y)
     if 7.0<=meal<=8.0:
         print("breakfast time")
@@ -9,8 +9,9 @@ def main():
 
 
 def convert(time):
-    return round(x+(time/60),2)
+    return round(x+(time/60),2)"""
 
-x,y = input("What is the time ?").split(":")
-if x == "7" or x == "8" or x == "12" or x == "13" or x == "18" or x =="19":
-    main()
+x,y = input("What is the time ?").split(":"))
+print(y)
+#if x == "7" or x == "8" or x == "12" or x == "13" or x == "18" or x =="19":
+   # main()
