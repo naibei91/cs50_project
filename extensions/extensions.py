@@ -4,24 +4,25 @@ def main():
     z1 = int(y.index("."))
     z2 = int(y.rindex("."))
     a = y[z1+1]+y[z1+2]+y[z1+3]+y[z1+4].strip()
+    print(a)
     if z1 == z2 :
         onyesha(a)
-    #else:
-     #   print("application/octet-stream")
+    else:
+       print("application/octet-stream")
 
 def onyesha(b):
     match b:
-        case "gif" :
+        case "Gif" :
             print("image/gif")
-        case "jpeg" | "jpg":
+        case "Jpeg" | "Jpg":
             print("image/jpeg")
-        case "png":
+        case "Png":
             print("image/png")
-        case "pdf":
+        case "Pdf":
             print("application/pdf")
-        case "text":
+        case "Text":
             print("text/plain")
-        case "zip":
+        case "Zip":
             print("application/zip")
         case _:
             print("application/octet-stream")
