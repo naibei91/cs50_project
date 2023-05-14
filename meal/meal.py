@@ -9,7 +9,7 @@ def main():
 
 
 def convert(time):
-    c = round(a+(time/60),1)
+    c = float(round(a+(time/60),1))
     return c
 
 x,y = input("What is the time ?").split(":")
