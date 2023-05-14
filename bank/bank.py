@@ -1,7 +1,7 @@
 greetings = input("Greating : ").title().strip()
 x = greetings[0]
 
-match greetings or x:
+match greetings and x:
     case "Hello":
         print("$0")
     case "H":
