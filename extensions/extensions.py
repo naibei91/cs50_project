@@ -1,6 +1,6 @@
 def main():
     x = input("FIle name : ").title()
-    if x.find(".") == True:
+    if x.find(".") != -1:
         y = x+" "
         z1 = int(y.index("."))
         z2 = int(y.rindex("."))
