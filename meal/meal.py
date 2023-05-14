@@ -8,7 +8,8 @@ def main():
 
 
 def convert(time):
-    return float(a+(time/60))
+    c = float(a+(time/60))
+    return c
 
 x,y = input("What is the time ?").split(":")
 a=float(x)
