@@ -1,16 +1,14 @@
 def main():
-    meal = convert(b)
-    if 7.0<=meal<=8.0:
+    if 7.0<=convert(b)<=8.0:
         print("breakfast time")
-    elif 12.0<=meal<=13.0:
+    elif 12.0<=convert(b)<=13.0:
         print("lunch time")
-    elif 18.0<=meal<=19.0:
+    elif 18.0<=convert(b)<=19.0:
         print("dinner time")
 
 
 def convert(time):
-    c = float(round(a+(time/60),1))
-    return c
+    return float(round(a+(time/60),1))
 
 x,y = input("What is the time ?").split(":")
 a=float(x)
