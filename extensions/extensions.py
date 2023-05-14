@@ -1,7 +1,7 @@
 x = input("FIle name : ").strip().title()
 y = x+" "
 z = y.find(".")
-for z[i+1] == NULL
+for z[1] == NULL
     a = y[z+1]+y[z+2]+y[z+3]+y[z+4].strip()
         match a:
             case "gif" :
