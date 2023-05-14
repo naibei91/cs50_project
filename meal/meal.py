@@ -11,7 +11,7 @@ def main():
 
 
 def convert(time):
-    c = round(x+(time/60))
+    c = round(x+(time/60),1)
     return c
 
 hours,min = input("What is the time ?").split(":")
