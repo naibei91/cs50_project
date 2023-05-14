@@ -11,11 +11,11 @@ else:
 """
 
 match name:
-    case "John": #or "Jane" or "Peter" :
+    case "John" |"Jane" | "Peter" :
         print("Sales")
-    case "Onyango": # or "Jane" or "Sarah" :
+    case "Onyango" | "Jane" | "Sarah" :
         print("Purchases")
-    case "Mwangi": #or "Waweru" or "Kimani":
+    case "Mwangi"| "Waweru" | "Kimani":
         print("Finance")
     case _:
         print("Who?")
