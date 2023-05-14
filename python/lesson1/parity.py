@@ -18,11 +18,14 @@ def even ():
     else:
         print(" is odd")
 """
-
+"""
 def even ():
     if value() % 2 ==0:
         return True
     else:
         return False
+"""
+def even ():
+        return True if value() % 2 ==0 else False
 
 main()
