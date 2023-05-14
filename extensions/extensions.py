@@ -1,5 +1,5 @@
 def main():
-    x = input("FIle name : ").strip().title()
+    x = input("FIle name : ").title()
     y = x+" "
     z1 = int(y.index("."))
     z2 = int(y.rindex("."))
@@ -19,7 +19,7 @@ def onyesha(b):
             print("image/png")
         case "Pdf":
             print("application/pdf")
-        case "Text":
+        case "Txt":
             print("text/plain")
         case "Zip":
             print("application/zip")
