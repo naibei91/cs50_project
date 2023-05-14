@@ -10,7 +10,6 @@ def main():
 
 def convert(time):
     c = round(a+(time/60),1)
-    print(c)
     return c
 
 x,y = input("What is the time ?").split(":")
