@@ -3,3 +3,12 @@ match y:
     case "+":
         a = float(x) +float(z)
         print(round(a,1))
+    case "-":
+        a = float(x) - float(z)
+        print(round(a,1))
+    case "/":
+        a = float(x) / float(z)
+        print(round(a,1))
+    case "*":
+        a = float(x) * float(z)
+        print(round(a,1))
