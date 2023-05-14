@@ -2,6 +2,10 @@ def main():
     meal convert(y)
     if 7.0<=meal<=8.0
         print("breakfast time")
+    if 7.0<=meal<=8.0
+        print("lunch time")
+    if 7.0<=meal<=8.0
+        print("dinner time")
 
 
 def convert(time):
