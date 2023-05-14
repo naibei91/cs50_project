@@ -12,8 +12,10 @@ match a:
     case "pdf":
         print("application/pdf")
     case "text":
-        print(f"{x}".replace(".text","/text"))
+        print("application/text")
     case "zip":
-        print(f"{x}".replace(".zip","/zip"))
+        print("application/zip")
+    case _:
+        print("application/octet-stream")
 
 
