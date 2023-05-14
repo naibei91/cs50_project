@@ -1,9 +1,9 @@
 x = input("FIle name : ").strip()
 y = x.find(".")
- = (f"{x[y+1][y+2][y+3]}
-print(z)
-"""z = x[y+1][y+2][y+3].strip()
-match z:
+
+a = x[y+1]+x[y+2]+x[y+3]+x[y+4]
+print(a)
+"""match a:
     case img:
         print(f"{x}").replace(".img","/gif")"""
 
