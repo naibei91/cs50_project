@@ -1,6 +1,6 @@
 def main():
     if 7.0<=convert(min)<=8.0:
-        print(f"breakfast time {convert(b)}")
+        print("breakfast time ")
     elif 12.0<=convert(min)<=13.0:
         print("lunch time")
     elif 18.0<=convert(min)<=19.0:
