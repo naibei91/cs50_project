@@ -1,4 +1,4 @@
-x = input("FIle name : ").split().lower()
+x = input("FIle name : ")
 y = x.find(".")
 z = x[y][y+1][y+3][y+4]
 
