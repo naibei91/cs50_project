@@ -1,6 +1,5 @@
 def main():
-    min = float(y)
-    meal = convert(min)
+    meal = convert(y)
     if 7.0<=meal<=8.0:
         print("breakfast time")
     elif 12.0<=meal<=13.0:
