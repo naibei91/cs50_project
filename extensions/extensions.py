@@ -9,22 +9,12 @@ match a:
         print(f"{x}").replace(".jpg","/jpg")
     case jpeg:
         print(f"{x}").replace(".jpeg","/jpeg")
-    case gif:
+    case png:
         print(f"{x}").replace(".gif","/gif")
-    case gif:
+    case pdf:
         print(f"{x}").replace(".gif","/gif")
-    case gif:
+    case text:
         print(f"{x}").replace(".gif","/gif")
-    case gif:
+    case zip:
         print(f"{x}").replace(".gif","/gif")
 
-
-
-
-gif
-.jpg
-.jpeg
-.png
-.pdf
-.txt
-.zip
