@@ -1,6 +1,7 @@
 x = input("FIle name : ").strip()
 y = x.find(".")
-print(y)
+z = x[y+1],x[y+2]
+print(z)
 """z = x[y+1][y+2][y+3].strip()
 match z:
     case img:
