@@ -1,6 +1,9 @@
 
 def main():
-     even()
+     if even():
+         print("Iis even")
+     else:
+         print("Odd")
 
 
 def value():
@@ -17,8 +20,7 @@ def even ():
 """
 
 def even ():
-    x = value()
-    if x % 2 ==0:
+    if value() % 2 ==0:
         return true
     else:
         return false
