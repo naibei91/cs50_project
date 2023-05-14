@@ -1,4 +1,4 @@
-x,y,z = float(input("Expression").split(" "))
+x,y,z = input("Expression").split(" ")
 match y:
     case "+":
-        print(x+z)
+        print("%.2f",x+z)
