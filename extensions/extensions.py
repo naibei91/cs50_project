@@ -1,11 +1,11 @@
 x = input("FIle name : ").strip().title()
 y = x+" "
-z1 = y.find(".")
+z1 = y.index(".")
 z2 = y.rindex(".")
 a = y[z1+1]+y[z1+2]+y[z1+3]+y[z1+4].strip()
 print(z1)
 print(z2)
-if
+if z1 == z2 :
     match a:
             case "gif" :
                 print("image/gif")
