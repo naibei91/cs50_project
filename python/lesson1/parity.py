@@ -25,7 +25,11 @@ def even ():
     else:
         return False
 """
+
+"""
 def even ():
         return True if value() % 2 ==0 else False
-
+"""
+def even ():
+        return value() % 2 ==0
 main()
