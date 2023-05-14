@@ -1,9 +1,9 @@
-greetings = input(Greating : ).title().strip()
+greetings = input("Greating : ").title().strip()
 
 match greetings:
-    case greetings == "Hello":
+    case "Hello":
         print("$0")
-    case greetings = "H":
+    case "H":
         print("$20")
     case _:
         print("$100")
