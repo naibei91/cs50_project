@@ -1,4 +1,4 @@
-name = input("Search users by department : ").title()
+name = input("Search users by department : ").title().strip(" ")
 if name == "Sales":
     print("1.John\n2.Jane\n3.Peter")
 elif name == "Purchases":
