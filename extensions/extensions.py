@@ -2,7 +2,7 @@ x = input("FIle name : ").strip().title()
 y = x+" "
 z1 = y.find(".")
 z2 = y.rindex(".")
-a = y[z+1]+y[z+2]+y[z+3]+y[z+4].strip()
+a = y[z1+1]+y[z1+2]+y[z1+3]+y[z1+4].strip()
 if z1 == z2:
        match a:
             case "gif" :
