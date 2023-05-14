@@ -1,25 +1,25 @@
 x = input("FIle name : ").strip().title()
 y = x+" "
-z1 = y.index(".")
-z2 = y.rindex(".")
+int z1 = y.index(".")
+int z2 = y.rindex(".")
 a = y[z1+1]+y[z1+2]+y[z1+3]+y[z1+4].strip()
 print(z1)
 print(z2)
 if z1 == z2 :
     match a:
-            case "gif" :
+        case "gif" :
                 print("image/gif")
-            case "jpeg" | "jpg":
+        case "jpeg" | "jpg":
                 print("image/jpeg")
-            case "png":
+        case "png":
                 print("image/png")
-            case "pdf":
+        case "pdf":
                 print("application/pdf")
-            case "text":
+        case "text":
                 print("text/plain")
-            case "zip":
+        case "zip":
                 print("application/zip")
-            case _:
+        case _:
                 print("application/octet-stream")
 
 else:
