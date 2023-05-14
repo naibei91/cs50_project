@@ -1,10 +1,10 @@
 greetings = input("Greating : ").title().strip()
 x = greetings[0]
+y = greetings.strip("Hello")
 
-match greetings:
+match x and y:
     case "Hello":
         print("$0")
-match x:
     case "H":
         print("$20")
     case _:
