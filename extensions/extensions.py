@@ -1,4 +1,4 @@
-x = input("FIle name : ").strip()
+x = input("FIle name : ").strip().title()
 y = x+" "
 z = y.find(".")
 a = y[z+1]+y[z+2]+y[z+3]+y[z+4].strip()
@@ -12,7 +12,7 @@ match a:
     case "pdf":
         print("application/pdf")
     case "text":
-        print("application/text")
+        print("text/plain")
     case "zip":
         print("application/zip")
     case _:
