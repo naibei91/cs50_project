@@ -19,6 +19,6 @@ if z[1] == null:
             case _:
                 print("application/octet-stream")
 
-elif:
+else:
     print("application/octet-stream")
 
