@@ -1,7 +1,7 @@
 
 def main():
      if even():
-         print("Iis even")
+         print("It is even")
      else:
          print("Odd")
 
@@ -21,8 +21,8 @@ def even ():
 
 def even ():
     if value() % 2 ==0:
-        return true
+        return True
     else:
-        return false
+        return False
 
 main()
