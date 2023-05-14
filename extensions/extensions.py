@@ -1,9 +1,9 @@
 x = input("FIle name : ").strip().title()
 y = x+" "
 z = y.find(".")
-for z[1] == NULL
-    a = y[z+1]+y[z+2]+y[z+3]+y[z+4].strip()
-        match a:
+a = y[z+1]+y[z+2]+y[z+3]+y[z+4].strip()
+if z[1] == null:
+       match a:
             case "gif" :
                 print("image/gif")
             case "jpeg" | "jpg":
