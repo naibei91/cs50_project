@@ -1,26 +1,27 @@
-x = input("FIle name : ").strip().title()
-y = x+" "
-int z1 = y.index(".")
-int z2 = y.rindex(".")
-a = y[z1+1]+y[z1+2]+y[z1+3]+y[z1+4].strip()
-print(z1)
-print(z2)
-if z1 == z2 :
-    match a:
-        case "gif" :
-                print("image/gif")
-        case "jpeg" | "jpg":
-                print("image/jpeg")
-        case "png":
-                print("image/png")
-        case "pdf":
-                print("application/pdf")
-        case "text":
-                print("text/plain")
-        case "zip":
-                print("application/zip")
-        case _:
-                print("application/octet-stream")
-
-else:
+def main():
+    x = input("FIle name : ").strip().title()
+    y = x+" "
+    z1 = int(y.index("."))
+    z2 = int(y.rindex("."))
+    a = y[z1+1]+y[z1+2]+y[z1+3]+y[z1+4].strip()
+    if z1 == z2 :
+    print(a)
+    else:
     print("application/octet-stream")
+def print(b):
+    match a:
+            case "gif" :
+                print("image/gif")
+
+            case "jpeg" | "jpg":
+                print("image/jpeg")
+            case "png":
+                print("image/png")
+            case "pdf":
+                print("application/pdf")
+            case "text":
+                print("text/plain")
+            case "zip":
+                print("application/zip")
+            case _:
+                print("application/octet-stream")
