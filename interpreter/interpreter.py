@@ -1,4 +1,4 @@
-x,y,z = input("Expression").split(" ")
+x,y,z = input("Expression : ").split(" ")
 match y:
     case "+":
         a = float(x) +float(z)
