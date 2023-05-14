@@ -1,5 +1,6 @@
-x = input("FIle name : ")
+x = input("FIle name : ").strip()
 y = x.find(".")
-z = x[y][y+1][y+3][y+4]
+match y:
+    case img:
+        print()
 
-print(z)
