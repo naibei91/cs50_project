@@ -1,9 +1,12 @@
-try:
-    x = int(input("what's x? "))
+while True:
+    try:
+        x = int(input("what's x? "))
 
-except ValueError:
-    print("x is not an integer.")
+    except ValueError:
+        print("x is not an integer.")
 
-else:
-    print(f"x is {x}")
+    else:
+        break
+    
+print(f"x is {x}")
 
